@@ -1,0 +1,62 @@
+header .container{
+	background-color: #6f4fca !important;
+}
+
+ .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
+	background-color: #6e4fca !important;
+    border-right: 1px solid #d1c6f1;
+ }
+
+ .skin-blue .main-header .logo {
+	 background-color: #6f4fca !important;
+	 height: 51px;
+	 border-right: 1px solid #d1c6f1;
+ }
+
+.main-header .logo .logo-lg{
+	background-color: #6f4fca !important;
+}
+
+.sidebar-mini .sidebar-collapse  {
+	background-color: #fff !important;
+	padding-left:0px !important;
+}
+
+@media (min-width: 1200px){
+	 .container .page-content {
+		width: 100% !important;
+		padding-left: 240px !important;
+	}
+}
+@media (min-width: 1200px){
+	.sidebar-collapse .container .page-content {
+		width: 100% !important;
+		padding-left: 0px !important;
+	}
+}
+
+@media (min-width: 1200px){
+	.page-head .container  {
+		width: 100% !important;
+		padding-left: 250px !important;
+	}
+}
+@media (min-width: 1200px){
+	.sidebar-collapse .page-head .container  {
+		width: 100% !important;
+		padding-left: 13px !important;
+	}
+}
+@media (min-width: 1200px){
+	 .container {
+		width: 100% !important;
+	
+	}
+}
+#icon-grid {
+
+    padding-left: 100px !important;
+}
+input {
+	border-radius: 0px !important;
+}
