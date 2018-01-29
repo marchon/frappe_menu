@@ -59,7 +59,7 @@
 .skin-blue .wrapper,
 .skin-blue .main-sidebar,
 .skin-blue .left-side {
-  background-color: #fff;
+  background-color: #fafafa;
 }
 .skin-blue .user-panel > .info,
 .skin-blue .user-panel > .info > a {
@@ -77,13 +77,14 @@
   color: #6f4fca;
   background: #fff;
   border-left-color: #6f4fca;
+  /*  */
 }
 .skin-blue .main-sidebar .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
   background: #f9f9f9;
 }
 .skin-blue .sidebar a {
-  color: #000;
+  color:rgba(0,0,0,.654);
 }
 .skin-blue .sidebar a:hover {
   text-decoration: none;

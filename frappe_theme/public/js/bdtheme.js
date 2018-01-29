@@ -344,6 +344,7 @@ function _init() {
  */     
 
       // $("#body_div").click(function () {
+        // ADSFASD
       //   //hide menu when clicking on the content-wrapper on small screens
       //   //Enable sidebar push menu
       //   if ($(window).width() > (screenSizes.sm - 1)) {
