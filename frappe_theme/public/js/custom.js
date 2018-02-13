@@ -55,7 +55,7 @@ $(document).ready(function() {
 	$('.main-section').append(frappe.render_template("main-sidebar"));
 
 	$('header').addClass('main-header');
-	$('header .navbar').removeClass('navbar-fixed-top');
+	// $('header .navbar').removeClass('navbar-fixed-top');
 	$('body').addClass('skin-blue sidebar-mini');	
 	$('#body_div').addClass('content-wrapper');	
 	
