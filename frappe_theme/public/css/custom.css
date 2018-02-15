@@ -74,6 +74,7 @@ header .dropdown-help {
     background: #6f4fca url(/assets/frappe_theme/images/logo_bdoop.png) center no-repeat;
     background-size: auto 48px;
     text-indent: -99em;
+
     
 }
 
@@ -81,6 +82,7 @@ header .dropdown-help {
     background: #6f4fca url(/assets/frappe_theme/images/bp-ico-32.png) center no-repeat;
     background-size: auto 38px;
     text-indent: -99em;
+    
 }
 
 .layout-side-section {
