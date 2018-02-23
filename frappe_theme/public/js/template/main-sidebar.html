@@ -1,366 +1,62 @@
-<aside class="main-sidebar" style="border-right: 1px solid #d1d8dd;position: fixed;">
+<aside class="main-sidebar" style="border-right: 1px solid #d1d8dd;position: fixed;    z-index: 11111; padding-top: 0; margin-top: 51px; ">
     <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-      <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" id = "menu123">
-        <!-- <li class="header">MAIN NAVIGATION</li> -->
-      
-              <li class="header">WELCOME ADMIN
-                
-              </li>
-              <li class="treeview active">
-                  <a href="#">
-                      <i class="fa fa-users"></i>
-                      <span>Employee & Attendance</span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu menu-open" style="display: block;">
-                      <li>
-                          <a href="#List/Employee">
-                              <i class="fa fa-angle-right"></i>Employee</a>
-                      </li>
-                      <li>
-                        <a href="#List/Attendance">
-                            <i class="fa fa-angle-right"></i>Attendance</a>
-                    </li>
-                    <li>
-                        <a href="#Form/Upload Attendance">
-                            <i class="fa fa-angle-right"></i>Upload Attendance</a>
-                    </li>
-                      <li>
-                          <a href="#Form/Employee Attendance Tool">
-                              <i class="fa fa-angle-right"></i> Attendance Tool</a>
-                      </li>
-                  
-                  </ul>
-              </li>
-       
-      
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-graduation-cap"></i>
-                      <span>Recruitment</span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Job Applicant">
-                              <i class="fa fa-angle-right"></i>Job Applicant</a>
-                      </li>
-                      <li>
-                          <a href="#List/Job Opening">
-                              <i class="fa fa-angle-right"></i>Job Opening</a>
-                      </li>
-                      <li>
-                          <a href="#List/Offer Letter">
-                              <i class="fa fa-angle-right"></i>Offer Letter</a>
-                      </li>
-                
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-list"></i>
-                      <span>Leaves</span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Leave Application">
-                              <i class="fa fa-angle-right"></i>Leave Application</a>
-                      </li>
-                      <li>
-                          <a href="#List/Leave Type">
-                              <i class="fa fa-angle-right"></i>Leave Type</a>
-                      </li>
-                      <li>
-                          <a href="#List/Holiday List">
-                              <i class="fa fa-angle-right"></i>Holiday List</a>
-                      </li>
-                      <li>
-                          <a href="#List/Leave Allocation">
-                              <i class="fa fa-angle-right"></i>Leave Allocation</a>
-                      </li>
-                      <li>
-                          <a href="#Form/Leave Control Panel">
-                              <i class="fa fa-angle-right"></i>Leave Allocation Tool</a>
-                      </li>
-                      <li>
-                          <a href="#List/Leave Block List">
-                              <i class="fa fa-angle-right"></i>Leave Block List</a>
-                      </li>
-                
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-balance-scale"></i>
-                      <span>Payroll</span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Salary Slip">
-                              <i class="fa fa-angle-right"></i>Salary Slip</a>
-                      </li>
-                      <li>
-                          <a href="#List/Payroll Entry">
-                              <i class="fa fa-angle-right"></i>Payroll Entry</a>
-                      </li>
-                      <li>
-                          <a href="#List/Salary Structure">
-                              <i class="fa fa-angle-right"></i>Salary Structure</a>
-                      </li>
-                      <li>
-                          <a href="#List/Salary Component">
-                              <i class="fa fa-angle-right"></i>Salary Components</a>
-                      </li>
-                
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-usd"></i>
-                      <span>Expense Claims
-                      </span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Employee Advance">
-                              <i class="fa fa-angle-right"></i>Employee Advance</a>
-                      </li>
-                      <li>
-                          <a href="#List/Expense Claim">
-                              <i class="fa fa-angle-right"></i>Expense Claim</a>
-                      </li>
-                      <li>
-                          <a href="#List/Expense Claim Type">
-                              <i class="fa fa-angle-right"></i>Expense Claim Type</a>
-                      </li>
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-black-tie"></i>
-                      <span>Appraisals
-                      </span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Appraisal">
-                              <i class="fa fa-angle-right"></i>Appraisal</a>
-                      </li>
-                      <li>
-                          <a href="#List/Appraisal Template">
-                              <i class="fa fa-angle-right"></i>Appraisal Template</a>
-                      </li>
-                      <li>
-                          <a href="#team-updates">
-                              <i class="fa fa-angle-right"></i>Team Updates</a>
-                      </li>
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-user-plus"></i>
-                      <span>Employee Loan
-                      </span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Loan Type">
-                              <i class="fa fa-angle-right"></i>Loan Type</a>
-                      </li>
-                      <li>
-                          <a href="#List/Employee Loan Application">
-                              <i class="fa fa-angle-right"></i>Employee Loan Application</a>
-                      </li>
-                      <li>
-                          <a href="#List/Employee Loan">
-                              <i class="fa fa-angle-right"></i>Employee Loan</a>
-                      </li>
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-commenting-o"></i>
-                      <span>Training
-                      </span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Training Program">
-                              <i class="fa fa-angle-right"></i>Training Program</a>
-                      </li>
-                      <li>
-                          <a href="#List/Training Event">
-                              <i class="fa fa-angle-right"></i>Training Event</a>
-                      </li>
-                      <li>
-                          <a href="#List/Training Result">
-                              <i class="fa fa-angle-right"></i>Training Result</a>
-                      </li>
-                      <li>
-                          <a href="#List/Training Feedback">
-                              <i class="fa fa-angle-right"></i>Training Feedback</a>
-                      </li>
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-bus"></i>
-                      <span>Fleet Management
-      
-                      </span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#List/Vehicle">
-                              <i class="fa fa-angle-right"></i>Vehicle</a>
-                      </li>
-                      <li>
-                          <a href="#List/Vehicle Log">
-                              <i class="fa fa-angle-right"></i>Vehicle Log</a>
-                      </li>
-              
-                  </ul>
-              </li>
-              <li class="treeview">
-                  <a href="#">
-                      <i class="fa fa-bar-chart"></i>
-                      <span>Reports
-      
-                      </span>
-                      <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                  </a>
-                  <ul class="treeview-menu">
-                      <li>
-                          <a href="#query-report/Employee Leave Balance">
-                              <i class="fa fa-angle-right"></i>Employee Leave Balance</a>
-                      </li>
-                      <li>
-                          <a href="#query-report/Employee Birthday">
-                              <i class="fa fa-angle-right"></i>Employee Birthday</a>
-                      </li>
-                      <li>
-                          <a href="#query-report/Employees working on a holiday">
-                              <i class="fa fa-angle-right"></i>Employees working on a holiday</a>
-                      </li>
-                      <li>
-                          <a href="#List/Employee/Report/Employee Information">
-                              <i class="fa fa-angle-right"></i>Employee Information</a>
-                      </li>
-                      <li>
-                          <a href="#query-report/Salary Register">
-                              <i class="fa fa-angle-right"></i>Salary Register</a>
-                      </li>
-                      <li>
-                          <a href="#query-report/Monthly Attendance Sheet">
-                              <i class="fa fa-angle-right"></i>Monthly Attendance Sheet</a>
-                      </li>
-                      <li>
-                          <a href="#query-report/Vehicle Expenses">
-                              <i class="fa fa-angle-right"></i>Vehicle Expenses</a>
-                      </li>
-              
-                  </ul>
-              </li>
-           
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-sliders"></i>
-                    <span>Setup
-    
-                    </span>
-                    <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li>
-                        <a href="#Form/HR Settings">
-                            <i class="fa fa-angle-right"></i>HR Settings</a>
-                    </li>
-                    <li>
-                        <a href="#List/Employment Type">
-                            <i class="fa fa-angle-right"></i>Employment Type</a>
-                    </li>
-                    <li>
-                        <a href="#List/Branch">
-                            <i class="fa fa-angle-right"></i>Branch</a>
-                    </li>
-                    <li>
-                        <a href="#List/Department">
-                            <i class="fa fa-angle-right"></i>Department</a>
-                    </li>
-                    <li>
-                        <a href="#List/Designation">
-                            <i class="fa fa-angle-right"></i>Designation</a>
-                    </li>
-                    <li>
-                        <a href="#Form/Daily Work Summary Settings">
-                            <i class="fa fa-angle-right"></i>Daily Work Summary Settings</a>
-                    </li>
-                
-            
-                </ul>
+    <section class="sidebar row">
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <div class="zm_apps">
+            <ul class="zmApps" >
+                <li class="sel" onclick="change_menu(this)" id="crm">
+                    <i class=" menu_icon fa fa-line-chart"></i>
+                    <span class="lAppLbl">CRM</span>
+                </li>
+                <li onclick="change_menu(this)" id="education">
+                    <i class=" menu_icon fa fa-calendar-o"></i>
+                    <span class="lAppLbl">Education</span>
+                </li>
+                <li onclick="change_menu(this)" id="account">
+                    <i class=" menu_icon fa fa-file-text-o"></i>
+                    <span class="lAppLbl">Accouts</span>
+                </li>
+                <li onclick="change_menu(this)">
+                    <i class=" menu_icon fa fa-users"></i>
+                    <span class="lAppLbl">HR</span>
+                </li>
+                <li onclick="change_menu(this)">
+                    <i class=" menu_icon fa fa-money"></i>
+                    <span class="lAppLbl">Assests</span>
+                </li>
+                <li onclick="change_menu(this)">
+                    <i class=" menu_icon fa fa-wrench"></i>
+                    <span class="lAppLbl">Intergration</span>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav nav-tabs SCl SC_show" style="display: block !important;    border-left: 1px solid #dddddd;">
+            <li class="active">
+                <a data-toggle="tab" href="#_menu11" style="border-radius: 0;">Menu</a>
             </li>
-            <li class="treeview">
-              <a href="#">
-                  <i class="fa fa-comment-o"></i>
-                  <span>Other
-  
-                  </span>
-                  <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                  </span>
-              </a>
-              <ul class="treeview-menu">
-                  <li>
-                      <a href="#List/Background Check">
-                          <i class="fa fa-angle-right"></i>Background Check</a>
-                  </li>
-                  <li>
-                      <a href="#List/Background Check Agency">
-                          <i class="fa fa-angle-right"></i>Background Check Agency</a>
-                  </li>
-                  <li>
-                      <a href="#List/Disciplinary Incident">
-                          <i class="fa fa-angle-right"></i>Disciplinary Incident</a>
-                  </li>
-    
-              
-          
-              </ul>
-          </li>
-     
-		</ul>
+            <li>
+                <a data-toggle="tab" href="#_menu22" style="border-radius: 0;">Filters</a>
+            </li>
+            <li>
+            </li>
+        </ul>
+        <ul class="sidebar-menu SCl SC_show " id="menu123" style="    top: 50px;">
+            <div class="tab-content">
+                <div id="_menu11" class="tab-pane fade in active" style="">
+                    <div class="menu_result">
+                        {{frappe.render_template("menu_list",{menuitems:menuitems})}}
+                    </div>
+                </div>
+                <div id="_menu22" class="tab-pane fade ">
+                    <div class="filter_list" style="padding: 0px">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <li class="header" x`>WELCOME ADMIN </li> -->
+        </ul>
     </section>
     <!-- /.sidebar -->
-  </aside>
-  <div class="overlay"><div>
+</aside>
+<div class="overlay">
+    <div>

@@ -1,0 +1,11 @@
+ {%  for (var i=0, l=menuitems.length; i < l; i++) {   var item = menuitems[i];  %}
+<li class="treeview">
+    <a  id="{{item.url}}" onclick="gotolist(this,event)">
+                    <i class="fa {{item.icon}}"></i>
+                    <span> {{item.name}}</span>
+                    <!-- <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span> -->
+                </a>
+</li>
+{% } %}
